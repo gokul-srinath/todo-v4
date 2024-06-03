@@ -1,0 +1,65 @@
+.todos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.5px solid lightgray;
+    
+}
+
+
+
+.todo{
+    background-color: white;
+    /* border: 1px solid red; */
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.4);
+    margin: 1rem;
+    position: relative;
+}
+
+.delete{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 2%;
+    color: red;
+    transform: scale(1.2);
+}
+
+
+
+.todo:hover {
+    transform: scale(1.1);
+}
+
+.completed {
+    background-color: rgba(144, 238, 144,0.6);
+    box-shadow: 2px 2px 12px 2px rgba(122, 251, 122, 0.5);
+}
+
+.category-container {
+display: block;
+width: 100%;
+}
+
+.category {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.header {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.line{
+    flex-grow: 1;
+    border: 1px solid gray;
+    height: 0;
+}
