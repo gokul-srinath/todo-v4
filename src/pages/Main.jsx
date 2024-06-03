@@ -66,9 +66,7 @@ const Main = () => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
+
 
   const selectHandler = (e) => {
     setCategories(e.target.value);
